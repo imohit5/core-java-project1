@@ -1,8 +1,7 @@
 package com.eventorganizer.entities;
 
-public class Organizer {
+public class Organizer extends CommonData {
 
-	public Long id;
-	public String name;
+	
 
 }

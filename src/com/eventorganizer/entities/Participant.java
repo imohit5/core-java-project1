@@ -1,9 +1,8 @@
 package com.eventorganizer.entities;
 
-public class Participant {
+public class Participant extends CommonData {
 
-	public Long id;
-	public String name;
+	
 	public String email;
 	public Boolean checkedIn;
 }

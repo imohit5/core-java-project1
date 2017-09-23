@@ -1,9 +1,8 @@
 package com.eventorganizer.entities;
 
-public class Venue {
+public class Venue extends CommonData {
 
-	public Long id;
-	public String name;
+	
 	public String description;
 	public String address;
 	public String city;

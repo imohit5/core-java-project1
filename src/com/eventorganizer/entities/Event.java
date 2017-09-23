@@ -1,9 +1,8 @@
 package com.eventorganizer.entities;
 
-public class Event {
+public class Event extends CommonData {
 
-	public Long id;
-	public String name;
+	
 	public String description;
 	public String startTime;
 	public String endTime;
