@@ -5,11 +5,11 @@ public class TestProject {
 	public static void main(String[] args) {
 
 		Organizer organizer = new Organizer();
-		organizer.id= new Long(1111);
-		organizer.name= "AWS";
+		organizer.setId(1111L);
+		organizer.setName("AWS");
 		System.out.println(organizer);
-		System.out.println(organizer.id);
-		System.out.println(organizer.name);
+		System.out.println(organizer.getId());
+		System.out.println(organizer.getName());
 		
 		Event event = new Event(new Long(2222),"apple","new app launch","","",true);
 //		event.id= new Long(2222);
@@ -17,9 +17,9 @@ public class TestProject {
 //		event.description= "new app launch";
 		
 		System.out.println(event);
-		System.out.println(event.id);
-		System.out.println(event.name);
-		System.out.println(event.description);
+		System.out.println(event.getId());
+		System.out.println(event.getName());
+		System.out.println(event.getDescription());
 		
 	}
 

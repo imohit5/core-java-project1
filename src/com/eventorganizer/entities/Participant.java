@@ -2,7 +2,23 @@ package com.eventorganizer.entities;
 
 public class Participant extends CommonData {
 
-	
-	public String email;
-	public Boolean checkedIn;
+	private String email;
+	private Boolean checkedIn;
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public Boolean getCheckedIn() {
+		return checkedIn;
+	}
+
+	public void setCheckedIn(Boolean checkedIn) {
+		this.checkedIn = checkedIn;
+	}
+
 }
